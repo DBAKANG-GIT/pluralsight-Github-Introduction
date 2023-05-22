@@ -1,3 +1,3 @@
-Instructions for deploying this site
+Instructions for deploying this site to the server
 -----------------------------------------
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus, lacus in accumsan iaculis, libero orci tincidunt elit, sit amet vestibulum nisl tortor et augue. Quisque sed elementum dolor, ac tristique augue. Sed consectetur in nisl non suscipit. In facilisis sit amet odio ac fringilla. Aliquam faucibus tortor quis erat consectetur, blandit vehicula nisi luctus. Vivamus accumsan facilisis malesuada. Integer lacinia sed mauris ac volutpat. Maecenas consectetur vel urna vel congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique posuere erat vel feugiat. Aliquam erat volutpat. Aliquam erat volutpat. Sed iaculis libero ac ullamcorper tristique. 
