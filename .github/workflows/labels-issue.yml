@@ -1,23 +1,19 @@
 name: Labels issues
-#The first is creating workflow
-on: 
-#set triggers
+
+on:
   issues:
     types:
-    #type of issues which can
-    - reopened
-    - opened
+      - reopened
+      - opened
+
 jobs:
   label_issues:
     runs-on: ubuntu-latest
-    permissions: 
+    permissions:
       issues: write
     steps:
-    - name: Label issues
-    - uses: andymckay/labeler@1.0.4
-      with:
-        # The GitHub token
-        repo-token: ${{secrets.github.token}}
-        # Labels to add to an issue, seperated by commas.
-        add-labels: "enhancement"
-        
+      - name: Label issues
+        uses: andymckay/labeler@1.0.4
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          add-labels: "enhancement"
